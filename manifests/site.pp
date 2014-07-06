@@ -1,14 +1,9 @@
 require boxen::environment
-
-  package {'homebrew':
-    install_options => ['--build-from-source'],
-  }
+require homebrew
 
   package {'git':
     install_options => ['--build-from-source'],
   }
-
-require homebrew
 
 Exec {
   group       => 'staff',
@@ -40,6 +35,7 @@ File {
 Package {
   provider => homebrew,
   require  => Class['homebrew'],
+  install_options => ['--build-from-source'],
 }
 
 Repository {
@@ -66,22 +62,6 @@ node default {
 
   include git
   include hub
-
-  homebrew::tap { 'homebrew/dupes': }
-
-  package { 'apple-gcc42': }
-
-  exec { 'brew link --force apple-gcc42':
-    user  => $boxen_user,
-    command   => 'brew link --force apple-gcc42',
-    require  => Package['apple-gcc42'],
-  }
-
-  exec { 'ln -nsf $(which gcc-4.2) /opt/boxen/homebrew/bin/gcc42':
-    user  => $boxen_user,
-    command   => 'ln -nsf $(which gcc-4.2) /opt/boxen/homebrew/bin/gcc42',
-    require   =>  Exec['brew link --force apple-gcc42'],
-  }
 
   # include nginx
 
