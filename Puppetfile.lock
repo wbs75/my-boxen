@@ -89,11 +89,6 @@ GITHUBTARBALL
     vlc (1.1.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-xquartz
-  specs:
-    xquartz (1.2.0)
-
-GITHUBTARBALL
   remote: glarizza/puppet-property_list_key
   specs:
     property_list_key (0.2.1)
@@ -143,6 +138,11 @@ GITHUBTARBALL
   specs:
     vmware_fusion (1.1.0)
 
+GITHUBTARBALL
+  remote: wbs75/puppet-xquartz
+  specs:
+    xquartz (1.2.1)
+
 DEPENDENCIES
   bash (= 1.1.0)
   boxen (= 3.6.2)
@@ -172,5 +172,5 @@ DEPENDENCIES
   vagrant (= 3.1.1)
   vlc (= 1.1.0)
   vmware_fusion (= 1.1.0)
-  xquartz (= 1.2.0)
+  xquartz (= 1.2.1)
 
