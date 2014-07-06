@@ -67,7 +67,7 @@ node default {
   include git
   include hub
 
-Homebrew::Tap { 'homebrew/dupes': }
+  homebrew::tap { 'homebrew/dupes': }
 
   package { 'apple-gcc42': }
 
