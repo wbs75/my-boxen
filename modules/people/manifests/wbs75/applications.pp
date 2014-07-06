@@ -12,7 +12,7 @@ class people::wbs75::applications {
     # include TotalFinder
     # include transmit
     # include vmware_fusion
-    # include xquartz
+    include xquartz
     # include vlc
 
     # class { 'vagrant':
