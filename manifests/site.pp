@@ -60,7 +60,11 @@ node default {
   # core modules, needed for most things
   # include dnsmasq
 
-  include git
+  package { 'git':
+    ensure  => latest,
+    require => Class['homebrew'],
+  }
+
   include hub
 
   # include nginx
