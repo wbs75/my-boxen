@@ -39,7 +39,6 @@ File {
 
 Package {
   provider => homebrew,
-  ensure  => latest,
   require  => Class['homebrew'],
 }
 
@@ -68,19 +67,14 @@ node default {
   include git
   include hub
 
-  homebrew::tap {'homebrew/dupes':
-    require  => Class['homebrew'],
-  }
+  homebrew::tap { 'homebrew/dupes': }
 
-  package {'apple-gcc42':
-    ensure  => latest,
-    require => Homebrew['tap'],
-  }
+  package { 'apple-gcc42': }
 
   exec { 'brew link --force apple-gcc42':
     user  => $boxen_user,
     command   => 'brew link --force apple-gcc42',
-    require  => Class['homebrew'],
+    require  => Package['apple-gcc42'],
   }
 
   exec { 'ln -nsf $(which gcc-4.2) /opt/boxen/homebrew/bin/gcc42':
@@ -88,7 +82,6 @@ node default {
     command   => 'ln -nsf $(which gcc-4.2) /opt/boxen/homebrew/bin/gcc42',
     require   =>  Exec['brew link --force apple-gcc42'],
   }
-
 
   # include nginx
 
