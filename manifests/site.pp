@@ -41,7 +41,7 @@ Package {
   ],
   ensure  => latest,
   require  => {
-                Class['homebrew'],
+                Package['homebrew'],
                 File["${boxen::config::bindir}/boxen-git-credential"],
               },
   install_options => ['--build-from-source'],
