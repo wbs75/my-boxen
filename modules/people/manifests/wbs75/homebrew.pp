@@ -5,8 +5,7 @@ class people::wbs75::homebrew (
   ) {
 
   homebrew::tap { 'homebrew/binary': } ->
-  homebrew::tap { 'timsutton/formulae': }
-  # homebrew::tap { 'homebrew/dupes': }
+  homebrew::tap { 'timsutton/formulae': } ->
+  homebrew::tap { 'homebrew/dupes': }
 
 }
-
