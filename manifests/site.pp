@@ -1,10 +1,6 @@
 require boxen::environment
 require homebrew
 
-  package {'git':
-    install_options => ['--build-from-source'],
-  }
-
 Exec {
   group       => 'staff',
   logoutput   => on_failure,
@@ -63,6 +59,7 @@ node default {
   package { 'git':
     ensure  => latest,
     require => Class['homebrew'],
+    install_options => ['--build-from-source'],
   }
 
   include hub
