@@ -4,7 +4,6 @@ class people::wbs75::applications {
       extra    => [
         '--recurse-submodules'
       ],
-      ensure  => latest,
       require  => File["${boxen::config::bindir}/boxen-git-credential"],
       config   => {
         'credential.helper' => "${boxen::config::bindir}/boxen-git-credential"
