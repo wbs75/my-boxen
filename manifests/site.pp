@@ -40,10 +40,7 @@ Package {
     '--recurse-submodules'
   ],
   ensure  => latest,
-  require  => {
-                Package['homebrew'],
-                File["${boxen::config::bindir}/boxen-git-credential"],
-              },
+  require  => File["${boxen::config::bindir}/boxen-git-credential"],
   install_options => ['--build-from-source'],
   config   => {
     'credential.helper' => "${boxen::config::bindir}/boxen-git-credential"
