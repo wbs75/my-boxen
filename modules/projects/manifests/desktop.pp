@@ -6,16 +6,15 @@ class projects::desktop {
         mode    =>'0755',
     }
 
-    ruby_gem { "Desktop for 2.0.0":
-        gem             => 'desktop',
-        version         => '1.1.1',
-        ruby_version    => 'system',
-        notify          => Exec['Set Desktop'],
+    exec { 'Ruby Install Desktop':
+        user        => 'root',
+        command     => '/usr/bin/sudo /usr/bin/gem install desktop',
+        creates     => ["/Library/Ruby/Gems/2.0.0/gems/desktop-1.1.1"],
     }
-
+    
     exec { 'Set Desktop':
         user        => 'root',
-        command     =>  '/Library/Ruby/Gems/2.0.0/gems/desktop http://fc05.deviantart.net/fs71/f/2012/282/6/c/apple_dark_by_mikesgame-d5hb6i1.jpg',
+        command     =>  '/Library/Ruby/Gems/2.0.0/gems/desktop-1.1.1/bin/desktop http://fc05.deviantart.net/fs71/f/2012/282/6/c/apple_dark_by_mikesgame-d5hb6i1.jpg',
         require     =>  Ruby_gem['Desktop for 2.0.0']
     }
 }
