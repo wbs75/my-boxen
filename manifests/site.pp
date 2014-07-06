@@ -34,8 +34,7 @@ Package {
   install_options => ['--build-from-source'],
 }
 
-Package {
-  provider => git,
+Package { 'git':
   extra    => [
     '--recurse-submodules'
   ],
