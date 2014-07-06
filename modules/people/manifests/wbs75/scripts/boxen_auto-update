@@ -1,0 +1,10 @@
+#!/bin/bash
+
+git add .
+git commit -m "local change "
+git push origin master
+git clean -df & git checkout
+#
+boxen
+#
+# Result: Boxen is up-to-date. so you'll get no more dirty message!!!
