@@ -1,5 +1,3 @@
-Exec { path => [ "/usr/local/bin" "/bin/", "/sbin/" , "/usr/bin/", "/usr/sbin/" ] }
-
 require boxen::environment
 require homebrew
 
