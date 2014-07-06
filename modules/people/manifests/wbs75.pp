@@ -38,6 +38,7 @@ class people::wbs75 {
     class {'people::wbs75::config::terminal_config': } ->
     class {'people::wbs75::config::remotedesktop_config': } ->
     class {'people::wbs75::config::safari_config': } ->
+    class {'people::wbs75::config::desktop': } ->
     class {'people::wbs75::dock': }
 
 }
