@@ -1,7 +1,5 @@
 class people::wbs75::applications {
 
-    package { 'git': }
-
     include bash
     include bash::completion
     include charles

@@ -34,6 +34,17 @@ Package {
   install_options => ['--build-from-source'],
 }
 
+Repository {
+  provider => git,
+  extra    => [
+    '--recurse-submodules'
+  ],
+  require  => File["${boxen::config::bindir}/boxen-git-credential"],
+  config   => {
+    'credential.helper' => "${boxen::config::bindir}/boxen-git-credential"
+  }
+}
+
 Service {
   provider => ghlaunchd
 }
@@ -43,9 +54,8 @@ Homebrew::Formula <| |> -> Package <| |>
 node default {
   # core modules, needed for most things
   # include dnsmasq
-
+  include git
   include hub
-
   # include nginx
 
   # fail if FDE is not enabled
