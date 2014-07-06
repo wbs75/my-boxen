@@ -1,5 +1,18 @@
 class people::wbs75::applications {
 
+    package { 'git':
+      extra    => [
+        '--recurse-submodules'
+      ],
+      ensure  => latest,
+      require  => File["${boxen::config::bindir}/boxen-git-credential"],
+      install_options => ['--build-from-source'],
+      config   => {
+        'credential.helper' => "${boxen::config::bindir}/boxen-git-credential"
+      }
+
+    }
+
     include bash
     include bash::completion
     include charles
