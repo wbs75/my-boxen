@@ -34,17 +34,22 @@ Package {
   install_options => ['--build-from-source'],
 }
 
-# Repository {
-#   provider => git,
-#   extra    => [
-#     '--recurse-submodules'
-#   ],
-#   require  => File["${boxen::config::bindir}/boxen-git-credential"],
-#   config   => {
-#     'credential.helper' => "${boxen::config::bindir}/boxen-git-credential"
-#   }
-#
-# }
+Package {
+  provider => git,
+  extra    => [
+    '--recurse-submodules'
+  ],
+  ensure  => latest,
+  require  => {
+                Class['homebrew'],
+                File["${boxen::config::bindir}/boxen-git-credential"],
+              },
+  install_options => ['--build-from-source'],
+  config   => {
+    'credential.helper' => "${boxen::config::bindir}/boxen-git-credential"
+  }
+
+}
 
 Service {
   provider => ghlaunchd
@@ -56,12 +61,7 @@ node default {
   # core modules, needed for most things
   # include dnsmasq
 
-  package { 'git':
-    ensure  => latest,
-    require => Class['homebrew'],
-    install_options => ['--build-from-source'],
-  }
-
+  include git
   include hub
 
   # include nginx
