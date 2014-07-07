@@ -43,17 +43,17 @@ class people::wbs75::applications {
         require => Class['people::wbs75::homebrew'],
     }
 
-    exec { 'brew link --force apple-gcc42':
-        user  => $boxen_user,
-        command   => 'brew link --force apple-gcc42',
-        require  => Package['apple-gcc42'],
-    }
+   #exec { 'brew link --force apple-gcc42':
+   #    user  => $boxen_user,
+   #    command   => 'brew link --force apple-gcc42',
+   #    require  => Package['apple-gcc42'],
+   #}
 
-    exec { 'ln -nsf $(which gcc-4.2) /opt/boxen/homebrew/bin/gcc42':
-        user  => $boxen_user,
-        command   => 'ln -nsf $(which gcc-4.2) /opt/boxen/homebrew/bin/gcc42',
-        require   =>  Exec['brew link --force apple-gcc42'],
-    }
+   #exec { 'ln -nsf $(which gcc-4.2) /opt/boxen/homebrew/bin/gcc42':
+   #    user  => $boxen_user,
+   #    command   => 'ln -nsf $(which gcc-4.2) /opt/boxen/homebrew/bin/gcc42',
+   #    require   =>  Exec['brew link --force apple-gcc42'],
+   #}
 
     package {'packer':
         ensure  => latest,
