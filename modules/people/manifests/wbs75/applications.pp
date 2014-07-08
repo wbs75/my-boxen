@@ -198,11 +198,11 @@ class people::wbs75::applications {
             provider    => appdmg,
         }
 
-        package {'ProToGO':
-            ensure      => installed,
-            source      => "http://sales.micromat.s3.amazonaws.com/disc_images/ptg_401.dmg",
-            provider    => pkgdmg,
-        }
+        #package {'ProToGO':
+        #    ensure      => installed,
+        #    source      => "http://sales.micromat.s3.amazonaws.com/disc_images/ptg_401.dmg",
+        #    provider    => pkgdmg,
+        #}
 
         package {'Snippets':
             source      =>  'http://snippets.me/download/mac/Snippets-468.zip',
