@@ -1,5 +1,6 @@
 class people::wbs75::applications {
 
+    include xquartz
     include bash
     include bash::completion
     # nclude charles
@@ -12,7 +13,6 @@ class people::wbs75::applications {
     # nclude TotalFinder
     # nclude transmit
     # nclude vmware_fusion
-    # nclude xquartz
     # nclude vlc
 # 
 #    class { 'vagrant':
