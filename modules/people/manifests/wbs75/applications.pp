@@ -14,7 +14,7 @@ class people::wbs75::applications {
     # nclude transmit
     # nclude vmware_fusion
     # nclude vlc
-# 
+#
 #    class { 'vagrant':
 #        version => '1.6.3'
 #    }
@@ -48,13 +48,13 @@ class people::wbs75::applications {
 #   #     command   => 'brew link --force apple-gcc42',
 #   #     require  => Package['apple-gcc42'],
 #   # }
-# 
+#
 #   # exec { 'ln -nsf $(which gcc-4.2) /opt/boxen/homebrew/bin/gcc42':
 #   #     user  => $boxen_user,
 #   #     command   => 'ln -nsf $(which gcc-4.2) /opt/boxen/homebrew/bin/gcc42',
 #   #     require   =>  Exec['brew link --force apple-gcc42'],
 #   # }
-# 
+#
     package {'packer':
         ensure  => latest,
         require => Class['people::wbs75::homebrew'],
@@ -214,5 +214,5 @@ class people::wbs75::applications {
 #        source      => 'https://www.dropbox.com/s/4xyj8eq0yrz0rhq/Sublime_Text_3-packages.dmg',
 #        provider    =>  pkgdmg,
 #    }
-#}
-#
+}
+
