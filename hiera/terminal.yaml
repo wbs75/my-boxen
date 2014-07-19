@@ -1,0 +1,155 @@
+propertylist { '/Users/wbs/Library/Preferences/com.apple.Terminal.plist':
+  ensure  => 'present',
+  content => {'Default Window Settings' => 'Pro', 'DefaultProfilesVersion' => '1', 'HasMigratedDefaults' => 'true', 'Man Page Window Settings' => 'Man Page', 'NSWindow Frame TTAppPreferences' => '636 600 637 478 0 0 2560 1578 ', 'NSWindow Frame TTWindow' => '1562 475 905 561 0 0 2560 1578 ', 'NSWindow Frame TTWindow Basic' => '159 878 585 366 0 0 2560 1578 ', 'NSWindow Frame TTWindow Pro' => '135 799 1377 637 0 0 2560 1578 ', 'PermanentServers' => ['server.airmacpro.com'], 'ProfileCurrentVersion' => '2.02', 'SecureKeyboardEntry' => 'true', 'Shell' => '/bin/bash', 'Startup Window Settings' => 'Pro', 'TTAppPreferences Selected Tab' => '0', 'Window Settings' => {'Basic' => {'Font' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+VNSSizeXNSfFlagsVNSNameV$class#@&??]Menlo-Regular?Z$classnameX$classesVNSFont?XNSObject_NSKeyedArchiver?root#-27<BKR[birtvx???????????', 'FontAntialias' => 'true', 'FontWidthSpacing' => '1.004032258064516', 'ProfileCurrentVersion' => '2.02', 'UseBrightBold' => 'true', 'name' => 'Basic', 'type' => 'Window Settings'}, 'Grass' => {'BackgroundColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO 0.074509807 0.4666667 0.2392157??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b?????????????', 'CursorColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO0.55686277 0.15686275 0??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b}???????????', 'CursorType' => '0', 'Font' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+VNSSizeXNSfFlagsVNSNameV$class#@(??WCourier?Z$classnameX$classesVNSFont?XNSObject_NSKeyedArchiver?root#-27<BKR[birtvx???????????', 'FontAntialias' => 'true', 'ProfileCurrentVersion' => '2.02', 'SelectionColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO!0.71372551 0.28627452 0.14901961??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b?????????????', 'TextBoldColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO1 0.6901961 0.23137257??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b|~???????????', 'TextColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO1 0.94117653 0.64705884??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b}???????????', 'name' => 'Grass', 'type' => 'Window Settings'}, 'Homebrew' => {'BackgroundColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+WNSWhite\NSColorSpaceV$classM0 0.89999998??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHP]drtv{?????????', 'CursorBlink' => 'true', 'CursorColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO!0.21960786 0.99607849 0.15294118??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b?????????????', 'CursorType' => '0', 'Font' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+VNSSizeXNSfFlagsVNSNameV$class#@(??ZAndaleMono?Z$classnameX$classesVNSFont?XNSObject_NSKeyedArchiver?root#-27<BKR[birtvx???????????', 'FontAntialias' => 'false', 'ProfileCurrentVersion' => '2.02', 'SelectionColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO0.034578395 0 0.91326531 0.65??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b?????????????', 'TextBoldColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classF0 1 0??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[bikmr}????????', 'TextColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO"0.15686275 0.99607849 0.078431375??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b?????????????', 'name' => 'Homebrew', 'type' => 'Window Settings'}, 'Man Page' => {'BackgroundColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO&0.9960784912 0.9568628073 0.611764729??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b?????????????', 'Font' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+VNSSizeXNSfFlagsVNSNameV$class#@&??]Menlo-Regular?Z$classnameX$classesVNSFont?XNSObject_NSKeyedArchiver?root#-27<BKR[birtvx???????????', 'FontAntialias' => 'true', 'FontWidthSpacing' => '1.004032258064516', 'ProfileCurrentVersion' => '2.02', 'name' => 'Man Page', 'rowCount' => '48', 'type' => 'Window Settings'}, 'Novel' => {'BackgroundColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO0.875 0.85798365 0.765625??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b????????????', 'CursorColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO*0.227451 0.13725491 0.13333334 0.64999998??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b?????????????', 'Font' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+VNSSizeXNSfFlagsVNSNameV$class#@(??WCourier?Z$classnameX$classesVNSFont?XNSObject_NSKeyedArchiver?root#-27<BKR[birtvx???????????', 'FontAntialias' => 'true', 'ProfileCurrentVersion' => '2.02', 'SelectionColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO,0.45408165 0.45100489 0.31514391 0.75999999??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b?????????????', 'ShowWindowSettingsNameInTitle' => 'false', 'TextBoldColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO.5 0.16430055 0.099145472??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b?????????????', 'TextColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO!0.23317312 0.13540857 0.13290608??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b?????????????', 'name' => 'Novel', 'type' => 'Window Settings'}, 'Ocean' => {'BackgroundColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO!0.13205624 0.30847856 0.73913044??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b?????????????', 'Font' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+VNSSizeXNSfFlagsVNSNameV$class#@&??]Menlo-Regular?Z$classnameX$classesVNSFont?XNSObject_NSKeyedArchiver?root#-27<BKR[birtvx???????????', 'FontAntialias' => 'true', 'FontWidthSpacing' => '0.9959677419354839', 'ProfileCurrentVersion' => '2.02', 'SelectionColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO0.1307393 0.42845806 1??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b|~???????????', 'TextBoldColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+WNSWhite\NSColorSpaceV$classB1??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHP]dgikp{????????', 'TextColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+WNSWhite\NSColorSpaceV$classB1??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHP]dgikp{????????', 'fontAllowsDisableAntialias' => '0', 'name' => 'Ocean', 'type' => 'Window Settings'}, 'Pro' => {'BackgroundBlur' => '0.0', 'BackgroundColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+WNSWhite\NSColorSpaceV$classM0 0.85000002??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHP]drtv{?????????', 'CursorColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+WNSWhite\NSColorSpaceV$classK0.30241936??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHP]dprty?????????', 'Font' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+VNSSizeXNSfFlagsVNSNameV$class#@,??VMonaco?Z$classnameX$classesVNSFont?XNSObject_NSKeyedArchiver?root#-27<BKR[birtvx??????????', 'FontAntialias' => 'true', 'FontWidthSpacing' => '0.9959677419354839', 'Linewrap' => 'true', 'ProfileCurrentVersion' => '2.02', 'SelectionColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+WNSWhite\NSColorSpaceV$classK0.25403225??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHP]dprty?????????', 'ShowWindowSettingsNameInTitle' => 'false', 'TextBoldColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO0.06607387489 0.6220803789 1??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b?????????????', 'TextColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO'0.9475806355 0.6537457308 0.0601703306??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b?????????????', 'UseBrightBold' => 'true', 'columnCount' => '110', 'name' => 'Pro', 'rowCount' => '28', 'shellExitAction' => '1', 'type' => 'Window Settings', 'warnOnShellCloseAction' => '0'}, 'Red Sands' => {'BackgroundColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO,0.47826087 0.14510436 0.11688121 0.85000002??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b?????????????', 'CursorColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+WNSWhite\NSColorSpaceV$classB1??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHP]dgikp{????????', 'CursorType' => '1', 'Font' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+VNSSizeXNSfFlagsVNSNameV$class#@&??]Menlo-Regular?Z$classnameX$classesVNSFont?XNSObject_NSKeyedArchiver?root#-27<BKR[birtvx???????????', 'FontAntialias' => 'true', 'FontWidthSpacing' => '1.004032258064516', 'ProfileCurrentVersion' => '2.02', 'SelectionColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO#0.23790321 0.097601339 0.087434523??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b?????????????', 'TextBoldColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO0.875 0.74038845 0.13213873??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b?????????????', 'TextColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO!0.84313732 0.78823537 0.65490198??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b?????????????', 'fontAllowsDisableAntialias' => '0', 'name' => 'Red Sands', 'type' => 'Window Settings'}, 'Silver Aerogel' => {'BackgroundAlphaInactive' => '0.5', 'BackgroundBlur' => '1.0', 'BackgroundBlurInactive' => '0.0', 'BackgroundColor' => 'bplist00? X$versionX$objectsY$archiverT$top??U$null?
+
+
+WNSWhite\NSColorSpace_NSCustomColorSpaceV$classH0.5 0.5???
+                                                          TNSID??Z$classnameX$classes\NSColorSpace?NSColorSpaceXNSObject?WNSColor?NSKeyedArchiver?!"Troot#-27=CLTav}????????????????????#', 'BackgroundSettingsForInactiveWindows' => 'true', 'CursorColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+WNSWhite\NSColorSpaceV$classE0.85??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHP]djlns~????????', 'Font' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+VNSSizeXNSfFlagsVNSNameV$class#@&??]Menlo-Regular?Z$classnameX$classesVNSFont?XNSObject_NSKeyedArchiver?root#-27<BKR[birtvx???????????', 'FontAntialias' => 'true', 'FontWidthSpacing' => '1.004032258064516', 'ProfileCurrentVersion' => '2.02', 'SelectionColor' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+UNSRGB\NSColorSpaceV$classO$0.3944300711 0.3996466994 0.5404284??Z$classnameX$classesWNSColor?XNSObject_NSKeyedArchiver?Troot#-27;AHN[b?????????????', 'TextBoldColor' => 'bplist00? X$versionX$objectsY$archiverT$top??U$null?
+
+
+WNSWhite\NSColorSpace_NSCustomColorSpaceV$classB1???
+                                                    TNSID??Z$classnameX$classes\NSColorSpace?NSColorSpaceXNSObject?WNSColor?NSKeyedArchiver?!"Troot#-27=CLTav}???????????U$null????#?', 'name' => 'Silver Aerogel', 'type' => 'Window Settings'}, 'Solid Colors' => {'BackgroundImageBookmark' => 'bplist00?X$versionX$objectsY$archiverT$top???
+
+
+WNS.dataV$classO?book?LLibraryDesktop Pictures
+                                              Solid Colors
+                                                          -?????8
+                                                                 Tdt
+                                                                    Macintosh HD
+A?'Er$35901F4D-D5E5-3A98-B803-770C45A9D06C?/?????
+@?? 8 ? ? ? ?  0 D??Z$classnameX$classes]NSMutableData?VNSDataXNSObject_NSKeyedArchiver?Troot#-27;AFNUACHS\jnu~????', 'CursorColor' => 'bplist00? X$versionX$objectsY$archiverT$top??U$null?
+
+
+WNSWhite\NSColorSpace_NSCustomColorSpaceV$classE0.75???
+                                                       TNSID??Z$classnameX$classes\NSColorSpace?NSColorSpaceXNSObject?WNSColor?NSKeyedArchiver?!"Troot#-27=CLTav}????????????????????#', 'Font' => 'bplist00?X$versionX$objectsY$archiverT$top??U$null?
+
+
+VNSSizeXNSfFlagsVNSNameV$class#@&??]Menlo-Regular?Z$classnameX$classesVNSFont?XNSObject_NSKeyedArchiver?root#-27<BKR[birtvx???????????', 'FontAntialias' => 'true', 'FontWidthSpacing' => '1.004032258064516', 'ProfileCurrentVersion' => '2.02', 'name' => 'Solid Colors', 'type' => 'Window Settings'}}, 'shell' => '/opt/boxen/homebrew/bin/bash'},
+  format  => 'binary',
+  group   => 'staff',
+  mode    => '0600',
+  owner   => 'wbs',
+}
