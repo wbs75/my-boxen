@@ -76,4 +76,4 @@ github "transmit",          "4.4.6",    :repo => "wbs75/puppet-transmit"
 # github "vagrant",           "3.1.1"
 # github "vlc",               "1.1.0"
 
-github "property_list_key",    "0.2.1",    :repo => "glarizza/puppet-property_list_key"
+mod "property_list_key",      "0.2.1",    :github_tarball => "glarizza/puppet-property_list_key"
